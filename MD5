@@ -1,0 +1,9 @@
+d422a6ab9099a446118be8c515b42e5a *DESCRIPTION
+02dbfcbe56b1ee2d8f50ba431cbc4048 *NAMESPACE
+722550bf8f942d453dab4a92fb04cd5e *R/iron.R
+f5bd6de35d05db658de065143283659e *R/waffle-package.R
+ab04af8f5c1237e2ec499398cb3d9713 *R/waffle.R
+f8e26965d7ded02dd3cb4f158d0c639d *man/iron.Rd
+b2131153dfa1eaa58daaf70a58262f42 *man/waffle.Rd
+0c6206a650bba58a99353df218556d6a *tests/test-all.R
+ebc05b5dc295983312e5e0e3dce0fbde *tests/testthat/test-waffle.R
