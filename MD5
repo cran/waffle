@@ -1,9 +1,10 @@
-a699453405aabd8a37fd41bca6e2ebfc *DESCRIPTION
+f525dc6ebd7ba79d9bbd6b314a844b0c *DESCRIPTION
 f3aa65d9874adf7d70bf5f8e9d3167a3 *NAMESPACE
 fa398b2078ad91f93623993af3303cf5 *R/fontawesome.R
 ce141791aa944478a82c4e36fbb02ebf *R/iron.R
 d90b20c7276d8d9468e74635c22499b1 *R/waffle-package.R
-bbeb1f4306569ae98d52c75247c6d92c *R/waffle.R
+8208a56e158a2ac01a338608f029cc27 *R/waffle.R
+5148b21c5d977111401fc803c9111a4a *README.md
 0b462f5cc07779cab3bef252c0271f2b *inst/fonts/FontAwesome.otf
 706450d7bba6374ca02fe167d86685cb *inst/fonts/fontawesome-webfont.ttf
 d9ee23d59d0e0e727b51368b458a0bff *inst/fonts/fontawesome-webfont.woff
