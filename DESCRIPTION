@@ -1,11 +1,16 @@
 Package: waffle
 Type: Package
-Title: Create Waffle Chart Visualizations in R
-Version: 0.7.0
-Date: 2017-01-07
+Title: Create Waffle Chart Visualizations
+Version: 1.0.2
+Date: 2023-09-30
 Authors@R: c(
-      person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre")),
-      person("Dave", "Gandy", role = "aut", comment = "Font Awesome")
+    person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
+           comment = c(ORCID = "0000-0001-5670-2640")),
+    person("Dave", "Gandy", role = "aut", comment = "Font Awesome"),
+    person("Andrew", "Breza", email = "andrew.breza@gmail.com", role = "ctb"),
+    person("Matthias", "Jütte", role = "ctb"),
+    person("Paul", "Campbell", email = "pacampbell91@gmail.com", 
+           role = "ctb", comment = "geom_bar flip")
     )
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Square pie charts (a.k.a. waffle charts) can be used
@@ -17,16 +22,20 @@ Description: Square pie charts (a.k.a. waffle charts) can be used
     small, just as should be done when creating pie charts. Tools are provided
     to create waffle charts as well as stitch them together, and to use glyphs
     for making isotype pictograms.
-URL: https://github.com/hrbrmstr/waffle/tree/cran
-BugReports: https://github.com/hrbrmstr/waffle/issues
-Suggests: testthat
-Depends: R (>= 3.2.0), ggplot2 (>= 2.0.0)
+Encoding: UTF-8
+Copyright: file inst/COPYRIGHTS
+Suggests: knitr, rmarkdown, dplyr, ggthemes
+Depends: R (>= 3.5.0), ggplot2 (>= 3.1.0)
 License: GPL (>= 2)
-Imports: RColorBrewer, grid, gridExtra, gtable, extrafont
-RoxygenNote: 5.0.1
+Imports: RColorBrewer, grid, gridExtra, gtable, extrafont, curl,
+        stringr, stats, htmlwidgets, DT, plyr, rlang, utils
+RoxygenNote: 7.2.3
 NeedsCompilation: no
-Packaged: 2017-01-07 14:40:20 UTC; bob
-Author: Bob Rudis [aut, cre],
-  Dave Gandy [aut] (Font Awesome)
+Packaged: 2023-09-30 20:08:27 UTC; hrbrmstr
+Author: Bob Rudis [aut, cre] (<https://orcid.org/0000-0001-5670-2640>),
+  Dave Gandy [aut] (Font Awesome),
+  Andrew Breza [ctb],
+  Matthias Jütte [ctb],
+  Paul Campbell [ctb] (geom_bar flip)
 Repository: CRAN
-Date/Publication: 2017-01-07 15:59:43
+Date/Publication: 2023-09-30 20:30:02 UTC
